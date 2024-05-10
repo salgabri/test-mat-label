@@ -11,10 +11,10 @@ import { MatInputModule } from '@angular/material/input';
   styleUrl: './app.component.css',
 })
 export class AppComponent {
-  showLabel = true;
+  showLabel = false;
   title = 'test-mat-label';
 
-  toggleCheck() {
+  toggleShowLabel() {
     this.showLabel = !this.showLabel;
   }
 }
